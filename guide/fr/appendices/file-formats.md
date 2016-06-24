@@ -9,7 +9,7 @@ title: Formats de fichier.
 
 ### JSON
 
-JSON est un format de fichier trés simple qui est vraiment facile de lire pour tous les langages de programmation. Cette simplicité signifie qu'il est généralement facile pour un ordinateur de traiter comparé a d'autres, telles que XML.
+JSON est un format de fichier simple dont la lecture est vraiment facile pour tous les langages de programmation. Cette simplicité signifie que comparé a d'autres, il est généralement plus facile à exécuter pour un ordinateur, tel que le XML.
 
 ### XML
 
@@ -17,15 +17,15 @@ XML est un format largement utilisé pour l'échange de données, car il conserv
 
 ### RDF
 
-Un format recommandé par le W3C est le RDF, car il permet de représenter les données sous une forme qui rend la combinaison de données de différentes sources plus facile. Les données RDF peuvent être stockées, parmi d'autres formats, en XML et JSON. Le format RDF encourage l'utilisation d'URL en tant qu'identifiant, facilitant ainsi l'interconnexion des initiatives d'open data à travers le web. Le format RDF, bien que pas encore alrgement répandu, a été utilisé par certaines initiatives d'open governement, comme les projets espagnols et britanniques d'open data lié ?. L'inventeur du web, Tim Berners-Lee, a récemment proposé un programme de notation des initiatives d'open data en cinq étoiles, qui place les données liées au format RDF comme le but à atteindre.
+Un format recommandé par le W3C est le RDF, car il permet de représenter les données sous une forme qui rend la combinaison de données de différentes sources plus facile. Les données RDF peuvent être stockées, parmi d'autres formats, en XML et JSON. Le format RDF encourage l'utilisation d'URL en tant qu'identifiant, facilitant ainsi l'interconnexion des initiatives d'open data à travers le web. Le format RDF, bien que pas encore largement répandu, a été utilisé par certaines initiatives d'open governement, comme les projets espagnols et britanniques d'open data lié. L'inventeur du web, Tim Berners-Lee, a récemment proposé un programme de notation des initiatives d'open data en cinq étoiles, qui place les données liées au format RDF comme le but à atteindre.
 
-### Feuilles de calcul
+### Classeurs
 
-De nombreuses autorités ont laissé des informations dans la feuille de calcul, par exemple Microsoft Excel. Ces données peuvent souvent être utilisées immédiatement avec des descriptions correctes des différentes colonnes.
+De nombreuses autorités ont des informations qui sont restées dans les classeurs, par exemple Microsoft Excel. Ces données peuvent souvent être utilisées immédiatement à partir des descriptions correctes des différentes colonnes.
 
-Cependant, dans certains cas, des macros et des formules subsistent dans les feuills de calcul, ce qui peut s'avérer somewhat more cumbersome to handle. Il est toutefois conseillé de documenter ces calculs dans les feuilles de calcul, pour que cela soit plus facilement compréhensible par les utilisateurs.
+Cependant, dans certains cas, des macros et des formules subsistent dans les feuills de calcul, ce qui peut s'avérer plus compliqué à manipuler. Il est donc conseillé de documenter ces calculs dans les feuilles de calcul, pour que cela soit plus facilement compréhensible par les utilisateurs.
 
-### Séparer les fichiers par une virgule
+### Fichiers de valeurs séparées par des virgules
 
 Les fichiers CSV sont un format très utile, car ils sont compacts et permetttent ainsi de transférer de larges ensembles de données en conservant la même structure. Cependant, ce format est tellement fruste que, sans métadonnées, certaines données peuvent être inutiles car il est impossible de deviner le sens des différentes colonnes. C'est pourquoi il est important, lors du recours à des formats séparés par des virgules, que les métadonnées des champs individuels soient renseignées.
 
@@ -33,19 +33,19 @@ Par ailleurs, il est essentiel que la structure du fichier soit conservée, car 
 
 ### Document texte
 
-Les documents classiques dans des formats comme Word, ODF, OOXML, ou PDF peuvent être suffisants pour montrer certains types de données - par exemple, des listes de diffusion relativement stables ou équivalent. Il peut être simple et bon marché à présenter les données sous ces formats, puisqu'il est souvent le format natif des données. Cependant, le format texte ne permet pas de conserver une structure de données cohérente et compréhensible, ce qui signifie souvent qu'il est difficile de saisir des données par des moyens automatisés. Veillez à utiliser des modèles comme base des documents pour permettre d'afficher des données de réutilisation, de sorte qu'il soit au moins possible d'extraire des informations de ces documents.
+Les documents classiques dans des formats comme Word, ODF, OOXML, ou PDF peuvent être suffisants pour montrer certains types de données - par exemple, des listes de diffusion relativement stables ou équivalent. Il peut être simple et bon marché de présenter les données sous ces formats, puisqu'il est souvent le format natif des données. Cependant, le format texte ne permet pas de conserver une structure de données cohérente et compréhensible, ce qui signifie souvent qu'il est difficile de saisir des données par des moyens automatisés. Veillez à utiliser des modèles comme base des documents pour permettre d'afficher des données de réutilisation, de sorte qu'il soit au moins possible d'extraire des informations de ces documents.
 
-Il peut également soutenir l'utilisation des données ultérieure en utilisant des balises typographiques autant que possible de sorte qu'il devienne plus facile pour une machine de distinguer les rubriques (tout type spécifié) à partir du contenu et ainsi de suite. Généralement, il est recommandé de ne pas exposer les données au format texte, ci celles-ci existent dans un format différent.
+Il peut également aider l'utilisation ultérieure des données par l'utilisation de balises typographiques au plus possible de sorte qu'il soit plus facile à une machine de distinguer les titres (tout type spécifié) du contenu et ainsi de suite. Généralement, il est recommandé de ne pas exposer les données au format texte, ci celles-ci existent dans un format différent.
 
 ### Texte
 
-Plain text documents (.txt) are very easy for computers to read. They generally exclude structural metadata from inside the document however, meaning that developers will need to create a parser that can interpret each document as it appears.
+Les documents au format de texte plein (.tx) sont très facile à lire pour les ordinateurs. En général, ils excluent cependant les métadonnées structurelles à l'intérieur du document, ce qui signifie que les développeurs devront créer un parseur qui peut interpréter chaque document tel qu'il apparaît. 
 
 Certains problèmes peuvent être liés à la commutation des fichiers texte entre les systèmes d'exploitation. MS Windows, Mac OS X et d'autres variantes d'Unix ont leur propre façon de dire à l'ordinateur qu'ils ont atteint la fin de la ligne.
 
 ### Image numérisée
 
-Probably the least suitable form for most data, but both TIFF and JPEG-2000 can at least mark them with documentation of what is in the picture - right up to mark up an image of a document with full text content of the document. It may be relevant to their displaying data as images whose data are not born electronically - an obvious example is the old church records and other archival material - and a picture is better than nothing.
+Certainement la forme la moins adaptée à la plupart des données, mais aussi bien le TIFF que le JPEG-2000 peuvent au moins ajouter une documentation de ce que contient l'image - jusqu'à marquer une image d'un document avec le contenu du texte intégral du document. Il peut être pertinent pour les données affichées comme images dont les données ne sont pas nées électroniquement - les vieux registres paroissiaux et d'autres documents d'archive en sont des exemples évidents - et une image vaut mieux que rien. 
 
 ### Formats propriétaires
 
